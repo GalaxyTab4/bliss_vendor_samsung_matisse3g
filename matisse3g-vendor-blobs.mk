@@ -251,7 +251,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
-    $(LOCAL_PATH)/proprietary/lib/libwpa_qmi_eap_proxy.so:system/lib/libwpa_qmi_eap_proxy.so
+    $(LOCAL_PATH)/proprietary/lib/libwpa_qmi_eap_proxy.so:system/lib/libwpa_qmi_eap_proxy.so \
+    $(LOCAL_PATH)/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so
+
 
 # Radio
 PRODUCT_COPY_FILES += \
@@ -290,9 +292,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/time_daemon:system/bin/time_daemon \
     $(LOCAL_PATH)/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/su.d/permissive.sh:system/su.d/permissive.sh
 
 #Matissewifi Camera
 PRODUCT_COPY_FILES += \
@@ -362,5 +361,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmmwfdsrcinterface.so:system/vendor/lib/libmmwfdsrcinterface.so 
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/su.d/permissive.sh:system/su.d/permissive.sh \
-    $(LOCAL_PATH)/proprietary/su.d/sshd.sh:system/su.d/sshd.sh 
+    $(LOCAL_PATH)/proprietary/su.d/permissive.sh:system/su.d/permissive.sh

@@ -19,6 +19,16 @@ PRODUCT_PACKAGES += \
     libHevcSwDecoder \
     TimeService
 
+PRODUCT_PACKAGES += \
+	libqmi \
+	libqmiservices \
+	libidl \
+	libqcci_legacy \
+	libdiag \
+	libqmi_client_qmux \
+	libdsutils \
+	libwpa_qmi_eap_proxy
+
 $(call inherit-product, vendor/samsung/matisse3g/matisse3g-vendor-blobs.mk)
 
 
